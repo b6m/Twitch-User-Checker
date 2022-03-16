@@ -30,7 +30,7 @@ from colorama import Fore, init
 import json
 import threading
 import time
-import scraper
+import ProxyScrape
 init(convert=True)
 
 
@@ -81,7 +81,7 @@ def Check():
 
 
 if __name__ == "__main__":
-    from scraper import scrape
+    from ProxyScrape import scrape
     scrape()
     time.sleep(2.5)
     for i in range(10):
