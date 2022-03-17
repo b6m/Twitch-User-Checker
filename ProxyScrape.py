@@ -3,12 +3,6 @@ import colorama
 from colorama import Fore
 import time
 
-
-
-
-
-
-
 def scrape():
     f = open("./proxies.txt", "w+")
     proxies = open("./proxies.txt").read().splitlines()
