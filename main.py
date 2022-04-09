@@ -2,15 +2,6 @@ from pystyle import Anime, Colorate, Colors, Center , System, Write
 from colorama import Fore
 import os
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
-
-# banner = f"""   {Fore.LIGHTBLACK_EX}             ╔═════════════════════════════════════════════════════════════════════╗
-#                 {Fore.LIGHTWHITE_EX}║   ┌┬┐┬ ┬┬┌┬┐┌─┐┬ ┬  ┬ ┬┌─┐┌─┐┬─┐ ┌┐┌┌─┐┌┬┐┌─┐  ┌─┐┬ ┬┌─┐┌─┐┬┌─┌─┐┬─┐║
-#                 {Fore.LIGHTBLACK_EX}║    │ ││││ │ │  ├─┤  │ │└─┐├┤ ├┬┘ │││├─┤│││├┤   │  ├─┤├┤ │  ├┴┐├┤ ├┬┘║
-#                 {Fore.LIGHTWHITE_EX}║    ┴ └┴┘┴ ┴ └─┘┴ ┴  └─┘└─┘└─┘┴└─ ┘└┘┴ ┴┴ ┴└─┘  └─┘┴ ┴└─┘└─┘┴ ┴└─┘┴└─║
-#                 {Fore.LIGHTBLACK_EX}╚═════════════════════════════════════════════════════════════════════╝  
-#                 {Fore.LIGHTWHITE_EX}    ║               M{Fore.LIGHTBLACK_EX}a{Fore.LIGHTWHITE_EX}d{Fore.LIGHTBLACK_EX}e{Fore.LIGHTWHITE_EX} B{Fore.LIGHTBLACK_EX}y{Fore.LIGHTWHITE_EX} r{Fore.LIGHTBLACK_EX}i{Fore.LIGHTWHITE_EX}p{Fore.LIGHTBLACK_EX}#{Fore.LIGHTWHITE_EX}1{Fore.LIGHTBLACK_EX}1{Fore.LIGHTWHITE_EX}1{Fore.LIGHTBLACK_EX}5{Fore.LIGHTWHITE_EX}                        ║
-#                 {Fore.LIGHTBLACK_EX}    ║               Put Webhook In config.json              ║
-#                 {Fore.LIGHTWHITE_EX}    ╚═══════════════════════════════════════════════════════╝ 
 banner = f"""                ╔═════════════════════════════════════════════════════════════════════╗
                 ║ ┌┬┐┬ ┬┬┌┬┐┌─┐┬ ┬  ┬ ┬┌─┐┌─┐┬─┐ ┌┐┌┌─┐┌┬┐┌─┐  ┌─┐┬ ┬┌─┐┌─┐┬┌─┌─┐┬─┐  ║
                 ║  │ ││││ │ │  ├─┤  │ │└─┐├┤ ├┬┘ │││├─┤│││├┤   │  ├─┤├┤ │  ├┴┐├┤ ├┬┘  ║
